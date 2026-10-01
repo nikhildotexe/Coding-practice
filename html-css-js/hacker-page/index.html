@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="terminal">
+        <div class="top">
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <p>user@cyber-terminal:~</p>
+        </div>
+
+        <main>
+            <p class="green">> SYSTEM ONLINE</p>
+
+            <h1>CYBER TERMINAL</h1>
+
+            <p class="text">
+                Welcome to the network.
+            </p>
+
+            <div class="command">
+                <span>user@system:~$</span>
+                <input id="commandInput" type="text"
+                       placeholder="type a command..."
+                       autocomplete="off">
+            </div>
+
+            <pre id="output"></pre>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
